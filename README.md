@@ -1,41 +1,73 @@
-# MediSync - Clinic Management System
+# Java OOP Projects Repository ☕
+
+## Overview
+
+Welcome to my **Java Object-Oriented Programming (OOP) Projects Repository**. This repository contains a collection of projects developed while learning and practicing Java programming. The projects cover fundamental and advanced OOP concepts, Graphical User Interface (GUI) development, and Database Integration.
+
+## Topics Covered
+
+### Object-Oriented Programming (OOP)
+
+* Classes and Objects
+* Encapsulation
+* Inheritance
+* Polymorphism
+* Abstraction
+* Interfaces
+* Constructors
+* Method Overloading & Overriding
+* Access Modifiers
+* Static Members
+* Exception Handling
+
+### GUI Development
+
+* Java Swing
+* Event Handling
+* Forms and User Interaction
+* Layout Managers
+* Tables and Menus
+
+### Database Integration
+
+* JDBC (Java Database Connectivity)
+* CRUD Operations
+* MySQL Database Connectivity
+* Data Management Systems
+
+## Repository Structure
+
+Each project is organized in its own folder with source code, documentation, and supporting files.
+
+```text
+Java-OOP-Projects/
+│
+├── Project-1/
+├── Project-2/
+├── Project-3/
+└── README.md
+```
 
 ## Purpose
-MediSync is a streamlined, desktop-based management system designed for healthcare clinics. It solves the problem of manual appointment tracking by allowing clinic receptionists to easily register new patients, view doctor availability, and schedule appointments without double-booking conflicts.
 
-## Group Members
-* Prem Vishal 023-25-0227
-* Ali Raza - 023-25-0202
-* Muhammad Ehsan - 023-25-0206
-* Karan Kumar 023-25-0215
+The purpose of this repository is to:
 
-*Program:* BS Artificial Intelligence (Semester 2) - Sukkur IBA University
+* Strengthen Java programming skills.
+* Demonstrate practical implementation of OOP concepts.
+* Explore GUI application development.
+* Learn database connectivity and data management.
+* Build a portfolio of Java projects.
 
-## Core Modules
-* `model`: Contains the entity classes (`Person`, `Patient`, `Doctor`) representing the core data structures.
-* `dao`: The Data Access Object layer (`IDatabaseOperations`, `MediSyncDAO`) which isolates all JDBC MySQL logic from the UI.
-* `ui`: Contains the Java Swing components (`AppWindow`) for user interaction.
+## Technologies Used
 
-## Key OOP Features Implemented
-1. **Inheritance & Abstract Classes:** Created an abstract `Person` class which both `Patient` and `Doctor` inherit from, promoting code reuse.
-2. **Encapsulation:** All model fields are `private` and accessed strictly via public getter/setter methods.
-3. **Interfaces & Polymorphism:** Utilized an `IDatabaseOperations` interface. The `MediSyncDAO` implements this, meaning the UI only cares about the *contract*, not the SQL implementation. Also overrode the `toString()` method in models to neatly display objects in GUI dropdowns.
-4. **Collections:** Fetched database records are stored in `ArrayList<Patient>` and `ArrayList<Doctor>` before being passed to the View layer.
-5. **Exception Handling:** Applied standard `try-catch` blocks and `throws SQLException` to gracefully handle database connection errors and duplicate booking attempts.
+* Java
+* Java Swing
+* JDBC
+* MySQL
+* IntelliJ IDEA / VS Code
 
-## How to Run
-1. **Prerequisites:** JDK 8+ installed, MySQL Server running.
-2. **Database Setup:** * Open MySQL Workbench and execute the provided `medisync.sql` script to create the database and tables.
----ENTER Your local Mysql root password to proceed.
-3. **Compile and Run:** * Compile the project ensuring the MySQL JDBC Connector `.jar` is in your build path.
-   * Run `Main.java` to launch the application.
+## Author
 
-   -- VIDEO LINK : 
+**Prem Vishal**
 
-   https://drive.google.com/file/d/1pA6D4nSl2ztMRyFkkHI1n7jR2heFQzfT/view?usp=drive_link
- 
-
- --- Github Repo Link : 
- https://github.com/AIwithVishal/JAVA_OOP_Project
-
- 
+Feel free to explore the projects, provide feedback, and contribute to learning and development.
